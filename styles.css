@@ -1,3 +1,49 @@
 body{
-  background: blue;
+  background: white;
+  background-image: url("images/reel.jpg");
+  margin:0px 0px;
+  background-repeat: no-repeat;
+  background-position: 90% 50%;
+}
+
+.header{
+  background-image: url("images/movie-tickets.jpg");
+  background-repeat: repeat-x;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  text-align: center;
+  font-size: 3.5em;
+  margin:0px .5px;
+  padding:5px;
+  border-bottom: 50px;
+}
+
+#intro:first-line {
+  font-size:130%;
+  font-family:Georgia, Times, sans-serif;
+}
+
+#intro{
+  color: black;
+  border: 5px groove  #ff3333;
+  padding:1px 5px 1px 30px;
+  background-color: #ffdb4d;
+  margin:0px 0px;
+}
+
+h2{
+  text-shadow:9px 9px #bbbbbb;
+}
+
+
+
+
+
+
+
+
+
+
+
+a:visited{color: green;
 }
