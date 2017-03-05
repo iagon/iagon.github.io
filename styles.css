@@ -1,3 +1,126 @@
 body{
-  background: blue;
+  margin:0px 0px;
+  background:black;
+ }
+
+.header{
+  background-image: url("images/movie-tickets.jpg");
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  text-align: center;
+  font-size: 3.5em;
+  margin: auto;
+  padding:5px;
+  font-size:280%;
 }
+
+#intro{
+  color: white;
+  border-top:6px groove white;
+  border-bottom:2px groove white;
+  padding:16px 16px 16px 16px;
+  background-color: black;
+  margin:2px 0px;
+  font-size:120%;
+  text-align:center;
+  font-weight: bold;
+}
+
+#intro b{
+  color:yellow;
+}
+
+h2{
+  margin:0px;
+  color: white;
+  padding:15px 5px 15px 5px;
+  text-align:center;
+}
+#container {
+  padding:10px 30px 10px 30px;
+}
+
+.image {
+  float:left;
+}
+
+.quote {
+  font-style:italic;
+  font-family:Georgia, Times, serif;
+  padding:10px;
+  border-top:1px solid yellow;
+  border-bottom:1px solid yellow;
+  width:10%;
+  color:white;
+  text-align:center;
+  margin:0 auto;
+  float:left;
+}
+
+
+#caption{
+  clear:both;
+  padding-top:10px;
+  background-color: black;
+  color:white;
+}
+#caption b{
+  color:yellow;
+}
+
+.list{
+  clear:left;
+  padding:2px 10px;
+  border-top:5px dotted yellow;
+  border-bottom:2px solid yellow;
+  margin:0px 0px;
+  background:black;
+  color:white;
+ }
+
+.list dt {
+  color: #ffffb3;
+  text-decoration: underline;
+}
+
+table{
+  width:400px;
+  padding:0px;
+  border-spacing:5px;
+  color:white;
+  border:1px solid white;
+  margin:0 auto;
+  
+}
+td{
+  border:1px solid white;
+}
+
+
+.movie {
+  color:#ffffb3;
+}
+
+footer {
+  text-align: center;
+  padding-bottom:5px;
+  color:white
+}
+
+a:visited {
+  color:red;
+}
+
+
+@media screen and (max-width: 900px) {
+ .quote {
+  float:none;
+  width:100%;
+}
+    
+ .image {
+  float:none;
+ }
+
+}
+
